@@ -1,0 +1,70 @@
+* {
+    font-family: "Kanit", sans-serif;
+    font-size: 12px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #36454F;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.navlinks {
+    display: flex;
+    list-style: none;
+}
+
+.navitem a {
+    display: inline-block;
+    padding: 2px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.navitem:hover {
+    background-color: white; 
+}
+
+.navitem:hover a {
+    color: #36454F;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black;
+    border-radius: 8px;
+}
+
+td {
+    padding: 10px;
+    border: solid black;
+    border-radius: 5px;
+}
+
+tr {
+    padding: 30px;
+}
+
+h1 {
+    font-size: 18px;
+    text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+    * {
+        font-size: 22px;
+    }
+}
